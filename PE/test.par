@@ -1,0 +1,22 @@
+MODE 1
+PSR      J0000+0000
+PEPOCH 50000.0
+C EPHEM   DE421
+C CLK    UTC(NIST)
+C NOTRACK 
+C Make all changes below here: 
+P0      0.015  1
+C value after singlechannel.tim:
+F0  68.0271858541681          3.1247e-05
+DM    16.0    0
+C value after narrowband.tim:
+C F0 68.0272381201125 0         4.0911e-05
+C DM 19.9948774770857  0        0.00044451
+DM  19.9953055782015          0.00029847
+C value after twoband.tim:
+C DM  19.9951053109822   0       1.0988e-06
+DM 19.9951042542625          7.4628e-07
+C value after wideband.tim:
+C   DM 16.0028569239938  0        0.00013335
+JUMP -i freq200 0.00147 1
+JUMP -i freq400 0.00147 1

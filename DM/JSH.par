@@ -1,0 +1,7 @@
+MODE 1
+PSR      J0000+0000
+PEPOCH  50000.0
+C Make all changes below here: 
+F0    66.6666667   1
+DM   16.35        1
+

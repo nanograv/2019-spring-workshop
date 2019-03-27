@@ -1,0 +1,8 @@
+paas -r single.m -w single.m -s single.std paas.std
+paas -r doublesmall.m -w doublesmall.m -s doublesmall.std paas.std
+paas -r doublemedium.m -w doublemedium.m -s doublemedium.std paas.std
+paas -r doublelarge.m -w doublelarge.m -s doublelarge.std paas.std
+
+
+
+paas -r double.m -w double.m -s double.std paas.std
