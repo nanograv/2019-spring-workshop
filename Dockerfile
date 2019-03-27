@@ -1,4 +1,4 @@
-FROM nanograv/workshop-2019:dc737ee8f3cd
+FROM nanograv/workshop-2019:b1f5f8cb04b3
 
 COPY . ${HOME}
 USER root
